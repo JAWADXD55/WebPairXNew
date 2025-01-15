@@ -76,7 +76,7 @@ router.get('/', async (req, res) => {
                     await GlobalTechInc.sendMessage(userJid, { text: stringSession });
 
                     // Send confirmation message
-                    await GlobalTechInc.sendMessage(userJid, { text: '*Hello there KHAN MD User! \ud83d\udc4b\ud83c\udffb* \n\n> Do not share your session id with anyone.\n\n *Thanks for using KHAN-MD \ud83c\uddf5\ud83c\uddf0* \n\n> Join WhatsApp Channel :- ⤵️\n \nhttps://whatsapp.com/channel/0029Vaj1hl1Lo4hksSXY0U2t\n\n Dont forget to give star \ud83c\udf1f to repo ⬇️\n\nhttps://github.com/JawadYTX/KHAN-AI' });
+                    await GlobalTechInc.sendMessage(userJid, { text: '*Hello there KHAN MD User! \ud83d\udc4b\ud83c\udffb* \n\n> Do not share your session id with anyone.\n\n *Thanks for using KHAN-MD \ud83c\uddf5\ud83c\uddf0* \n\n> Join WhatsApp Channel :- ⤵️\n \nhttps://whatsapp.com/channel/0029Vaj1hl1Lo4hksSXY0U2t\n\n Dont forget to give star \ud83c\udf1f to repo ⬇️\n\nhttps://github.com/JawadYTX/KHAN-XMD' });
 
                     // Clean up session after use
                     await delay(100);
